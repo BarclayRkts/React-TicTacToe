@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.board{
+    width: 30.68rem;
+    height: 31rem;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid green;
+}
+
+.square:hover{
+    background: lightseagreen;
+    cursor: pointer;
+}
